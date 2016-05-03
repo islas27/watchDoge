@@ -1,0 +1,7 @@
+scalaVersion := "2.11.7"
+resolvers += "Twitter" at "http://maven.twttr.com"
+resolvers += "Peregrine" at "http://dl.bintray.com/dvarelap/maven"
+resolvers += "mvn" at "https://repo1.maven.org/maven2"
+libraryDependencies += "com.github.dvarelap" %% "peregrine" % "1.2.2"
+libraryDependencies += "com.twitter" %% "util-collection" % "6.27.0"
+libraryDependencies += "org.mongodb" %% "casbah" % "3.1.1"
